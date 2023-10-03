@@ -33,10 +33,10 @@ import java.util.InputMismatchException;
     }
 
     public void DisplayCards() {
-        Random rand = new Random();
-        int num = rand.nextInt(52 - 1) + 1;
 
         for (int i = 0; i < 5; i++) {
+            Random rand = new Random();
+            int num = rand.nextInt(52 - 1) + 1;
             String col = color[deck[0]];
             String pal = palo[deck[num] / 13];
             String val = valor[deck[num] % 13];
@@ -141,4 +141,4 @@ public class Main {
     }
 }
 
-# Actividad-3
+# rest
